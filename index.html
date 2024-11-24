@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>welcome my project</h1>
+    <p>i am abdirizak abas computer science student with second year in university</p>
+    <div class="container">
+        <div class="allinone">
+            <input type="text" id="display" placeholder="maded with abdirizak abas " disabled>
+            <!-- disabled waa in qoranka banaanka laga qoraayo laga xiro -->
+            <div class="button-container">
+                <!-- First row -->
+                <button onclick="appendDisplay('1')">1</button>
+                <button onclick="appendDisplay('2')">2</button>
+                <button onclick="appendDisplay('3')">3</button>
+                <button onclick="appendDisplay('+')">+</button>
+                <button onclick="appendDisplay('*')">x</button>
+            
+                <!-- Second row -->
+                <button onclick="appendDisplay('4')">4</button>
+                <button onclick="appendDisplay('5')">5</button>
+                <button onclick="appendDisplay('6')">6</button>
+                <button onclick="appendDisplay('÷')">÷</button>
+                <button onclick="appendDisplay('-')">-</button>
+            
+           
+                <!-- Third row -->
+                <button onclick="appendDisplay('7')">7</button>
+                <button onclick="appendDisplay('8')">8</button>
+                <button onclick="appendDisplay('9')">9</button>
+                <button onclick="clearDisplay()">©</button>
+                <button onclick="appendDisplay('.')">•</button>
+            
+          
+                <!-- Last row -->
+                <button onclick="calculate()">=</button>
+                <button onclick="appendDisplay('0')">0</button>
+            </div>
+        </div>
+        </div>
+   
+    <script src="dynamic.js"></script>
+</body>
+</html>
